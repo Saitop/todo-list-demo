@@ -1,0 +1,30 @@
+.todo-wrapper {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.todo-list li {
+    min-width: 20vw;
+    list-style: none;
+    max-width: 40vw;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+.todo-input input {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.todo-input button {
+    font-size: 3rem;
+}
