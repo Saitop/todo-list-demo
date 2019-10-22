@@ -17,10 +17,7 @@ export default class TodoWrapper extends Component {
 
   addNewTodo = newTodoContent => {
     if(newTodoContent) {
-      this.props.addNewTodo({
-        content: newTodoContent,
-        status: false
-      });
+      this.props.createNewTodo(newTodoContent);
     }
   };
 
